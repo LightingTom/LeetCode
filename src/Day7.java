@@ -1,5 +1,6 @@
 public class Day7 {
     private static ListNode removeDuplicateNodes(ListNode head) {
+        if (head == null) return null;
         ListNode ptr1 = head.next;
         ListNode ptr1_prev = head;
         while (ptr1 != null) {

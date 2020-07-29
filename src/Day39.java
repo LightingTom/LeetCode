@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Queue;
 
 // Leetcode: LCP 13
+@Info(date = "2020-07-29", difficulty = 5, command = "Special dp, need to review")
 public class Day39 {
     int m, n;
     int[][] dir = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
